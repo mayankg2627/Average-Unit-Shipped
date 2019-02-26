@@ -11,7 +11,7 @@ Public Class Form1
 
 
     Sub ResetForm()
-        ' reset variables
+        ' reset all the text box available in the form
         Dim Control As Control
         Dim rt As TextBox
         For Each Control In Me.Controls
